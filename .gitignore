@@ -1,0 +1,10 @@
+library/
+local/
+temp/
+build/
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
