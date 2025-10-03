@@ -4,6 +4,7 @@ import { Toast } from "../../framework/plugin_boosts/ui/ToastManager";
 import Device from "../../framework/plugin_boosts/gamesys/Device";
 import Platform from "../../framework/Platform";
 import MoreGameManager from "../../framework/wxsdk/MoreGameManager";
+import LocalizationManager from "../../scripts/LocalizationManager";
 
 
 export enum ChoiceType  {
@@ -88,7 +89,7 @@ export default class UserInfoClass extends DataCenter
         else this.diamond += parseInt(d);
         if(b)
         {
-            Toast.make("获得钻石 x" + d)
+            Toast.make(LocalizationManager.t("get_diamond") + " x" + d)
             Device.playEffect(R.audio_get_diamond);
         }
         if(!this.firstTimeReach)

@@ -33,5 +33,6 @@
   "fill_all": "Must fill all the hexagons",
   "times_over": "Time's Over!",
   "retry": "Retry",
-  "quit": "Quit"
+  "quit": "Quit",
+  "get_diamond": "Get Diamonds"
 }

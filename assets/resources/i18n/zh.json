@@ -33,5 +33,6 @@
   "fill_all": "必须填满所有格子",
   "times_over": "时间到！",
   "retry": "重试",
-  "quit": "退出"
+  "quit": "退出",
+  "get_diamond": "获得钻石"
 }
